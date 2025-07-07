@@ -1,0 +1,118 @@
+import type { Product } from "@/types/product"
+
+export const productData: Product[] = [
+  {
+    id: "iphone-15-pro",
+    name: "iPhone 15 Pro",
+    price: "999",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=iPhone+15+Pro",
+    description:
+      "The most advanced iPhone ever, featuring the powerful A17 Pro chip, titanium design, and revolutionary camera system.",
+    features: [
+      "A17 Pro chip with 6-core GPU",
+      "Titanium design",
+      "48MP Main camera",
+      "5x Telephoto camera",
+      "USB-C connectivity",
+    ],
+  },
+  {
+    id: "macbook-pro-16",
+    name: 'MacBook Pro 16"',
+    price: "2499",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=MacBook+Pro+16",
+    description: "Supercharged by M3 Pro and M3 Max chips. Built for all the ways you work and play.",
+    features: [
+      "M3 Pro or M3 Max chip",
+      "Up to 128GB unified memory",
+      "Liquid Retina XDR display",
+      "22-hour battery life",
+      "Six-speaker sound system",
+    ],
+  },
+  {
+    id: "airpods-pro",
+    name: "AirPods Pro (2nd gen)",
+    price: "249",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=AirPods+Pro",
+    description: "Richer audio experience with Adaptive Audio, Personalized Spatial Audio, and longer battery life.",
+    features: [
+      "Active Noise Cancellation",
+      "Adaptive Audio",
+      "Personalized Spatial Audio",
+      "Up to 6 hours listening time",
+      "MagSafe Charging Case",
+    ],
+  },
+  {
+    id: "ipad-pro",
+    name: 'iPad Pro 12.9"',
+    price: "1099",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=iPad+Pro+12.9",
+    description: "The ultimate iPad experience with the most advanced technology in an impossibly thin design.",
+    features: [
+      "M2 chip",
+      "Liquid Retina XDR display",
+      "12MP Ultra Wide front camera",
+      "USB-C with Thunderbolt",
+      "Apple Pencil (2nd gen) support",
+    ],
+  },
+  {
+    id: "apple-watch-ultra",
+    name: "Apple Watch Ultra 2",
+    price: "799",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=Apple+Watch+Ultra+2",
+    description: "The most rugged and capable Apple Watch, designed for endurance, exploration, and adventure.",
+    features: [
+      "49mm titanium case",
+      "Always-On Retina display",
+      "Up to 36 hours battery life",
+      "Water resistant to 100 meters",
+      "Precision dual-frequency GPS",
+    ],
+  },
+  {
+    id: "mac-studio",
+    name: "Mac Studio",
+    price: "1999",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=Mac+Studio",
+    description: "Supercharged by M2 Max and M2 Ultra. Extensive connectivity. Surprisingly compact.",
+    features: [
+      "M2 Max or M2 Ultra chip",
+      "Up to 192GB unified memory",
+      "Extensive I/O connectivity",
+      "Quiet cooling system",
+      "Compact desktop design",
+    ],
+  },
+  {
+    id: "studio-display",
+    name: "Studio Display",
+    price: "1599",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=Studio+Display",
+    description:
+      "An immersive 27-inch 5K Retina display with a 12MP Ultra Wide camera, three studio-quality mics, and six speakers.",
+    features: [
+      "27-inch 5K Retina display",
+      "12MP Ultra Wide camera",
+      "Six-speaker sound system",
+      "Three studio-quality mics",
+      "Thunderbolt 3 connectivity",
+    ],
+  },
+  {
+    id: "mac-pro",
+    name: "Mac Pro",
+    price: "6999",
+    imageUrl: "/placeholder.svg?height=400&width=400&text=Mac+Pro",
+    description: "A workstation so powerful, it's ready for your biggest ideas. Supercharged by Apple silicon.",
+    features: [
+      "M2 Ultra chip",
+      "Up to 192GB unified memory",
+      "Modular system design",
+      "Extensive expansion capabilities",
+      "Professional-grade performance",
+    ],
+  },
+]
